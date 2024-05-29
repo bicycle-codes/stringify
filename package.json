@@ -1,6 +1,6 @@
 {
   "name": "@bicycle-codes/stringify",
-  "description": "",
+  "description": "Create small base64-encoded string representations of an image.",
   "directories": {
     "test": "test"
   },
