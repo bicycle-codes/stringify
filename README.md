@@ -14,6 +14,18 @@ npm i -D @bicycle-codes/stringify
 
 ## use
 
+This writes to `stdout`. Use shell redirection to write to a file, etc.
+
+### text file
+
 ```sh
 npx stringify ./my-file.jpeg > base64.txt
+```
+
+### clipboard
+
+On macos, this will copy the output to the OS clipboard
+
+```sh
+npx stringify ./my-file.jpeg | pbcopy
 ```
