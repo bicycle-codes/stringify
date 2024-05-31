@@ -29,3 +29,10 @@ On macos, this will copy the output to the OS clipboard
 ```sh
 npx stringify ./my-file.jpeg | pbcopy
 ```
+
+## demonstration
+
+See a demonstration here: [bicycle-codes.github.io/image-element/](https://bicycle-codes.github.io/image-element/).
+
+> [!TIP]
+> Throttle the internet speed in dev tools
