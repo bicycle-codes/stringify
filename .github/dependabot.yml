@@ -8,12 +8,12 @@ updates:
     schedule:
       interval: "daily"
     ignore:
-    - dependency-name: "eslint"
-      update-types: ["version-update:semver-major"]
-    - dependency-name: "eslint*"
-      update-types: ["version-update:semver-major"]
-    - dependency-name: "@typescript-eslint*"
-      update-types: ["version-update:semver-major"]
+      - dependency-name: "eslint"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "eslint*"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@typescript-eslint*"
+        update-types: ["version-update:semver-major"]
   # Enable updates to github actions
   - package-ecosystem: "github-actions"
     directory: "/"
