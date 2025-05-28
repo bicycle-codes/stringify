@@ -4,10 +4,6 @@ import { hideBin } from 'yargs/helpers'
 import sharp from 'sharp'
 import { fileTypeFromFile } from 'file-type'
 
-export function example ():void {
-    console.log('hello')
-}
-
 const args = yargs(hideBin(process.argv))
     .demandCommand(1)
     .command('filename', 'the local filename to read')
